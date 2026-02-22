@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Outdoor heat pump illustration">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6f2ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <g transform="translate(60,40)">
+    <rect x="0" y="40" width="480" height="220" rx="18" fill="#f7fbff" stroke="#dbefff"/>
+    <rect x="18" y="62" width="90" height="176" rx="8" fill="url(#g)" stroke="#cfe6ff"/>
+    <rect x="120" y="62" width="330" height="176" rx="8" fill="#f6f9fb"/>
+
+    <!-- Fan -->
+    <circle cx="285" cy="150" r="54" fill="#e9f3ff" stroke="#cfe6ff"/>
+    <g fill="#9fc9ff" transform="translate(285,150)">
+      <path d="M0-40 A40 40 0 0 1 34 -12 L8 -6 A20 20 0 0 0 0 -40Z"/>
+      <path d="M0-40 A40 40 0 0 0 -34 -12 L-8 -6 A20 20 0 0 1 0 -40Z" transform="rotate(120)"/>
+      <path d="M0-40 A40 40 0 0 0 -34 12 L-8 6 A20 20 0 0 1 0 -40Z" transform="rotate(240)"/>
+    </g>
+
+    <!-- Grille lines -->
+    <g stroke="#d0e8ff" stroke-width="6">
+      <line x1="200" y1="84" x2="380" y2="84"/>
+      <line x1="200" y1="108" x2="380" y2="108"/>
+      <line x1="200" y1="132" x2="380" y2="132"/>
+      <line x1="200" y1="156" x2="380" y2="156"/>
+      <line x1="200" y1="180" x2="380" y2="180"/>
+    </g>
+
+    <!-- Ground base -->
+    <rect x="-10" y="270" width="500" height="18" fill="#eef6ff" rx="6"/>
+    <text x="18" y="310" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Outdoor Heat Pump Unit</text>
+  </g>
+</svg>
